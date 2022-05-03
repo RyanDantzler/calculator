@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #333;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  font-family: monospace, sans-serif;
+}
+
+#wrapper {
+  width: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background: #aaa;
+  padding: 20px 8px 8px 8px;
+  border-radius: 4px;
+}
+
+#display {
+  width: 100%;
+  text-align: right;
+  background: #111;
+  color: #eee;
+  padding: 1.3rem 20px;
+  font-size: 1.5rem;
+}
+
+#buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 30px;
+}
+
+#buttons .button {
+  width: calc(33.33% - 5px);
+  padding: 25px 0;
+  margin-right: 5px;
+  margin-top: 5px;
+  text-align: center;
+  background-color: #999;
+  font-size: 1.3rem;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+#buttons .numbers {
+  width: calc(100%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
+}
+
+#buttons .numbers .button {
+  width: calc(33.33% - 5px);
+}
+/*# sourceMappingURL=style.css.map */
